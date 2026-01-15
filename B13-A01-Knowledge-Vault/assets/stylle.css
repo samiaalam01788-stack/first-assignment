@@ -1,28 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
 
-#nav-container .navbar{
+#nav-container .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* margin: 0 auto; */
     padding: 16px 120px;
 }
-.list ul{
+
+.list ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .list ul li {
     list-style: none;
     font-size: 16px;
     /* gap: 32px; */
     padding-right: 32px;
 }
-.btn button{
+
+.btn button {
     background-color: #469165;
     color: #ffffff;
     padding: 12px 16px;
@@ -32,8 +35,8 @@
 
 }
 
-#banner-container .banner-box{
-   
+#banner-container .banner-box {
+
     /* margin: 115px auto; */
     background-image: url(./hero-bg.png);
     background-position: center;
@@ -42,7 +45,8 @@
     padding: 115px 120px;
     text-align: center;
 }
-.banner-box .para1{
+
+.banner-box .para1 {
     margin: 0 auto;
     margin-top: 115.5px;
     height: 16px;
@@ -55,7 +59,8 @@
     padding: 5px;
     text-align: center;
 }
-.banner-text h1{
+
+.banner-text h1 {
     margin: 0 auto;
     margin-top: ;
     padding: 16px;
@@ -64,6 +69,7 @@
     color: #ffffff;
     text-transform: capitalize;
 }
+
 .banner-box .para2 {
     margin: 0 auto;
     text-align: center;
@@ -74,20 +80,23 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
-} 
-#intro-container{
-    max-width: 1140px;
-    margin: 0 auto;
 }
-.intro-box h1{
+
+#intro-container {
+    max-width: 1140px;
+    margin: 120px auto;
+}
+
+.intro-box h1 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
     color: #001931;
     padding-bottom: 16px;
-     
+    text-transform: capitalize;
 }
- #intro-container p{
+
+#intro-container p {
     font-size: 16px;
     color: #627382;
     text-align: center;
@@ -95,47 +104,84 @@
     padding: 24px;
     padding-bottom: 44px;
 }
+
 .intro-card {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
-.card-info{
+
+.card-info {
     height: 300px;
     width: 322px;
     box-shadow: 0 0 8px rgba(128, 128, 128, 0.308);
     /* border: 1px solid black; */
     margin: 10px;
-    
+
 }
-.card-info{
+
+.card-info {
     text-align: center;
     /* margin: 0 auto; */
     /* padding: 0px 24px; */
 }
-.card-info img{
-    
+
+.card-info img {
+
     margin: 0 auto;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-   
+
 }
-.card-info .image{
+
+.card-info .image {
     margin: 50px auto 20px;
     height: 80px;
     width: 80px;
     border-radius: 50%;
 
 }
-.card-info h1{
+
+.card-info h1 {
     font-size: 24px;
     font-weight: 600;
     padding: 30px auto;
     color: #001931;
-    margin-bottom:  34px;
-    
+    margin-bottom: 34px;
+}
 
-    
+.image-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.image-text {
+    margin: 102px 64px;
+}
+
+.image-text p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #627382;
+    padding-bottom: 16px;
+}
+
+.image-text  h1 {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: left;
+    color: #001931;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+}
+.image-text ul li{
+    list-style-image: url(./CheckCircle.png);
+    font-size: 16px;
+    line-height: 20px;
+
 }
