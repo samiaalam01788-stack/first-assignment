@@ -4,11 +4,17 @@
 
 }
 
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+   
+}
 #nav-container .navbar {
+    
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 auto; */
     padding: 16px 120px;
 }
 
@@ -21,8 +27,9 @@
 .list ul li {
     list-style: none;
     font-size: 16px;
-    /* gap: 32px; */
     padding-right: 32px;
+    text-transform: capitalize;
+ 
 }
 
 .btn button {
@@ -33,17 +40,17 @@
     border: none;
     border-radius: 5px;
     margin: 16px;
+    text-transform: capitalize;
 
 }
 
 #banner-container .banner-box {
-
-    /* margin: 115px auto; */
+    margin: 0 auto;
     background-image: url(./hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 674px;
-    padding: 115px 120px;
+    padding: 10px  120px;
     text-align: center;
 }
 
@@ -63,8 +70,7 @@
 
 .banner-text h1 {
     margin: 0 auto;
-    margin-top: ;
-    padding: 16px;
+    padding:  16px;
     font-size: 82px;
     font-weight: bold;
     color: #ffffff;
@@ -85,7 +91,8 @@
 
 #intro-container {
     max-width: 1140px;
-    margin: 120px auto ;
+    margin: 0px auto ;
+
 }
 
 .intro-box h1 {
@@ -93,6 +100,7 @@
     font-weight: bold;
     text-align: center;
     color: #001931;
+    padding-top: 80px;
     padding-bottom: 16px;
     text-transform: capitalize;
 }
@@ -116,16 +124,14 @@
 .card-info {
     height: 300px;
     width: 322px;
-    box-shadow: 0 0 8px rgba(128, 128, 128, 0.308);
-    /* border: 1px solid black; */
+    box-shadow: 0 -5px 8px rgba(128, 128, 128, 0.344);
     margin: 10px;
 
 }
 
 .card-info {
     text-align: center;
-    /* margin: 0 auto; */
-    /* padding: 0px 24px; */
+
 }
 
 .card-info img {
@@ -151,6 +157,8 @@
     padding: 30px auto;
     color: #001931;
     margin-bottom: 34px;
+    text-transform: capitalize;
+
 }
 
 .image-box {
@@ -159,10 +167,12 @@
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
 .image-text {
-    margin: 102px 64px;
+    margin: 102px 34px;
+    line-height: 24px;
 }
 
 .image-text , .challenge-box p {
@@ -170,7 +180,7 @@
     display: block;
     font-weight: 400;
     color: #627382;
-    /* padding-bottom: 24px; */
+    padding-bottom: 24px;
     line-height: 24px;
 }
 
@@ -181,13 +191,15 @@
     color: #001931;
     padding-bottom: 16px;
     text-transform: capitalize;
+    line-height: 44px;
 }
 .image-text ul li{
     list-style-image: url(./CheckCircle.png);
     list-style-position: inside;
     font-size: 16px;
     line-height: 20px;
-    /* padding-left: 20px; */
+    text-transform: capitalize;
+   
 
 }
 #challenge-container{
@@ -205,6 +217,7 @@
     font-weight: bold;
     color: #001931;
     margin-bottom: 16px;
+    text-transform: capitalize;
 }
 footer{
     background-color: #001931 ;
@@ -232,6 +245,7 @@ footer{
     font-size: 20px;
     font-weight: 400;
     padding-bottom: 16px;
+    text-transform: capitalize;
     /* line-height: 20px; */
  }
  i{
