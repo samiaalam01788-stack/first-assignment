@@ -32,6 +32,7 @@
     margin: 5px;
     border: none;
     border-radius: 5px;
+    margin: 16px;
 
 }
 
@@ -84,7 +85,7 @@
 
 #intro-container {
     max-width: 1140px;
-    margin: 120px auto;
+    margin: 120px auto ;
 }
 
 .intro-box h1 {
@@ -164,11 +165,13 @@
     margin: 102px 64px;
 }
 
-.image-text p {
+.image-text , .challenge-box p {
     font-size: 16px;
-    font-weight: 600;
+    display: block;
+    font-weight: 400;
     color: #627382;
-    padding-bottom: 16px;
+    /* padding-bottom: 24px; */
+    line-height: 24px;
 }
 
 .image-text  h1 {
@@ -181,7 +184,63 @@
 }
 .image-text ul li{
     list-style-image: url(./CheckCircle.png);
+    list-style-position: inside;
     font-size: 16px;
     line-height: 20px;
+    /* padding-left: 20px; */
 
+}
+#challenge-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1140px;
+    height: 384px;
+    margin: 120px auto 120px ;
+    text-align: center;
+    background-color: #F7F6F2;
+} 
+.challenge-box h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+footer{
+    background-color: #001931 ;
+    color: #ffffff;
+
+}
+ .footer-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 30px 100px;
+    /* height: 348px; */
+    background-color: #001931 ;
+    color: #ffffff;
+}
+ .footer-box ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    /* color: #ffffff;  */
+
+ }
+ .footer-text h4{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    /* line-height: 20px; */
+ }
+ i{
+    color: #ffffff;
+
+ }
+.copyright-para p{
+    text-align: center;
+    border-top: 1px solid #627382;
+    padding-bottom: 16px ;
+    padding-top: 16px;
 }
